@@ -11,7 +11,7 @@ in truth it's half as many as many as I tried.  Alas, I gave it my best shot, an
 still a long road ahead of me to figure out why so much of what I tried did not work.
 
 ### Here's a list of some things featured on my page.
-_________________________________________________
+--------------------------
 
 - Semi resposive Nav-bar with internal and external links
 - responsive layout using flex-box and media queries
@@ -24,7 +24,7 @@ _________________________________________________
 
 
 ## Some of the things still to do
-______________________________
+---------------------------------
 
 - a better nav bar with drop-down options
 - the image carousel on this page (iframe was playing havoc with layout)

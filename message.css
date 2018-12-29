@@ -183,6 +183,23 @@ img.codewars-icon {
     -webkit-animation-duration: 2s;
     -webkit-animation-timing-function: ease-in;*/
 }
+.class-check {
+ animation-name: turn;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    -webkit-animation-name: turn;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-timing-function: ease-in;
+}
+
+.animate {
+    animation-name: turned;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    -webkit-animation-name: turned;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-timing-function: ease-in;
+}
 
 #note1,
 #note2,
@@ -503,5 +520,25 @@ footer {
 
     to {
         transform: rotateY(90);
+    }
+}
+
+@keyframes turned {
+    from {
+        transform: rotateY(90);
+    }
+
+    to {
+        transform: rotateY(0);
+    }
+}
+
+@-webkit-keyframes turned {
+    from {
+        transform: rotateY(90);
+    }
+
+    to {
+        transform: rotateY(0);
     }
 }

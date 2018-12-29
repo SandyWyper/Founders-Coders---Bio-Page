@@ -18,14 +18,7 @@ function addListners() {
 
 function letterRevealOne() {
 
-    const messageOne = `<p class="letters">I was younger then. Derailed, I emerged with roll of paper in my
-	 hand and a sense of disillusionment, I ventured away from elderly adolescence. Repelled by city life 
-	 and suburban struggles I found myself by the sea. Life ebbs and flows with the tide - we wait on the next
-	  swell. A wave approaches. Judging the potential I make a quick decision. No hesitation, position, paddle
-	   and slide the board under my feet. As I accelerate down the face I feel the energy, looking down the 
-	   line a wall of water rises up in front of me. Opportunity! Opportunity for a searing turn, or smooth 
-	   cut-back, or even a barrel. I fall…. Nevermind, another wave will come. The sun will set and rise and 
-	   more opportunities will come my way. Inevitably … </p>
+    const messageOne = `<p class="letters">I was younger then. Derailed, I emerged with roll of paper in my hand and a sense of disillusionment, I ventured away from elderly adolescence. Repelled by city life and suburban struggles I found myself by the sea. Life ebbs and flows with the tide - we wait on the next swell.  How long has it been ... ?  Days turn to weeks,  weeks into years.  The mind wanders, longing for shores far from here.  Venturing around the coast it seems to stretch on and on.  I found a length of timber about nine feet, roughly 20 inches wide.  Not large enough to find richer lands, but pretty good for catching some waves.  Perhaps I will stay here a while... </p>
 	   `;
 
     const myStoryOne = `<p class="my-story"> I grew up in the suburbs of Glasgow 
@@ -41,21 +34,19 @@ function letterRevealOne() {
 
     if (notes.classList.item(0) === "class-check") {
         notes.innerHTML = myStoryOne;
-        document.getElementById("note1").classList.toggle("class-check");
+        document.getElementById("note1").classList.replace("class-check", "animate");
+        console.log(document.getElementById("note1").classList);
     } else {
         notes.innerHTML = messageOne;
-        notes.classList.toggle("class-check");
+        document.getElementById("note1").classList.replace("animate", "class-check");
+                console.log(document.getElementById("note1").classList);
     }
 
 }
 
 function letterRevealTwo() {
 
-    const messageTwo = `<p class="letters">…. many days and nights at sea, my skin leathered and salty. Not 
-	lost, it seems I have found a new world. Alone - I opened my eyes on this wonderful tech world - it’s beautiful!
-	There a wealth of content and learning facilities, but with no guide I feel that I’m staggering through a forest
-	 with fresh eyes. Every CSS animation a different flower, every javascript framework a wonderful new animal 
-	 species. I need an experienced bushman (full stack dev) to show me how to survive. How to get stronger and thrive.
+    const messageTwo = `<p class="letters">… many days and nights at sea, my skin leathered and salty. Not lost, it seems I have found a new world. Alone - I opened my eyes on this wonderful tech world - it’s beautiful!  There is so much to see and so much to learn, but with no guide I feel that I’m staggering through a forest with fresh eyes. Every CSS animation a different flower, every javascript framework a wonderful new animal species. I need an experienced bushman (full stack dev) to show me how to survive. How to get stronger and thrive.
      </p>
      `;
 

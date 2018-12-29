@@ -23,6 +23,7 @@ still a long road ahead of me to figure out why so much of what I tried did not 
 - stop the audio with key press
 
 
+
 ## Some of the things still to do
 ---------------------------------
 
@@ -30,3 +31,4 @@ still a long road ahead of me to figure out why so much of what I tried did not 
 - the image carousel on this page (iframe was playing havoc with layout)
 - animations between messages
 - links to other projects I have done
+- light-box image viewer for gallery

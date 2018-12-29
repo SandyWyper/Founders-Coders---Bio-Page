@@ -195,6 +195,7 @@ img.codewars-icon {
     font-family: 'Montserrat', sans-serif;
     line-height: 34px;
     text-align: left;
+    padding: 4rem 0 2rem 0;
 }
 
 .my-story {
@@ -443,7 +444,7 @@ footer {
     }
 
     h2 {
-        font-size: 4rem;
+        font-size: 2rem;
     }
 
     header {

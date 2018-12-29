@@ -184,15 +184,22 @@ img.codewars-icon {
     -webkit-animation-timing-function: ease-in;*/
 }
 .class-check {
- animation-name: turn;
+/*    position: relative;
+    animation-name: turn;
     animation-duration: 2s;
     animation-timing-function: ease-in;
     -webkit-animation-name: turn;
     -webkit-animation-duration: 2s;
-    -webkit-animation-timing-function: ease-in;
+    -webkit-animation-timing-function: ease-in;*/
 }
 
-.animate {
+.animate{
+
+}
+
+/*.animate { 
+    display:none;
+    position: absolute;
     animation-name: turned;
     animation-duration: 2s;
     animation-timing-function: ease-in;
@@ -200,7 +207,7 @@ img.codewars-icon {
     -webkit-animation-duration: 2s;
     -webkit-animation-timing-function: ease-in;
 }
-
+*/
 #note1,
 #note2,
 #note3 {
@@ -262,6 +269,16 @@ h3 {
     font-weight: 800;
 }
 
+h4 {
+    font-family: 'Amatic SC', cursive;
+    color: white;
+    padding: 3rem 2rem 1rem 1rem;
+    font-size: 2rem;
+    letter-spacing: 1.2px;
+
+    text-align: center;
+
+}
 p {
     font-family: 'Gloria Hallelujah', cursive;
     font-size: 20px;

@@ -13,9 +13,6 @@
 </head>
 
 <body>
-        <audio autoplay>
-  <source src="audio/waves.mp3" type="audio/mpeg">
-</audio>
     <!-- Wrapper -->
     <div id="wrapper">
         <!-- nav bar -->
@@ -55,6 +52,8 @@
         <!-- back-to-top button -->
         <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-angle-up"></i></button>
 
+
+    <!-- audio workaround -->
 <iframe src="audio/silence.mp3" allow="autoplay" id="audio" style="display:none"></iframe>
 <audio id="player" autoplay loop>
     <source src="audio/waves.mp3" type="audio/mp3">
@@ -67,6 +66,7 @@
             <header>
                 <h2>...a message in a bottle from</h2>
                 <h1>Sandy Wyper</h1>
+                <!-- <h4><em>press 'S' for silence</em></h4> -->
             </header>
             <div class="content">
                 <span class="image"><img src="F&C-images/message-in-a-bottle.jpg" alt="a desert island"></span>
@@ -80,10 +80,20 @@
             </header>
             <div class="content">
                 <div>
-                    <h3>click on the messages to reveal my story</h3>
+                    <h3>click on the messages to reveal my story &nbsp; - &nbsp; press 's' for silence</h3>
                     <div id="note1" class="class-check">
                         <p class="letters">I was younger then. Derailed, I emerged with roll of paper in my hand and a sense of disillusionment, I ventured away from elderly adolescence. Repelled by city life and suburban struggles I found myself by the sea. Life ebbs and flows with the tide - we wait on the next swell. How long has it been ... ? Days turn to weeks, weeks into years. The mind wanders, longing for shores far from here. Venturing around the coast it seems to stretch on and on. I found a length of timber about nine feet, roughly 20 inches wide. Not large enough to find richer lands, but pretty good for catching some waves. Perhaps I will stay here a while... </p>
                     </div>
+                    <!-- <div id="note1" class="animate">
+                        <p class="my-story"> I grew up in the suburbs of Glasgow 
+    and went on to study at Dundee University where I left with a BSc in Architecture.  
+    After working briefly in the field I decided to change direction and move away from construction.  
+    I moved to the North coast of Cornwall and for the last ten years Newquay has been my home.  For seven 
+    of those I have been a beach lifeguard with the RNLI.   A job that has been a dream. Day to day helping
+     people on the beach and in the water is no chore. Times of joy, sadness, heroism and tragedy, the job 
+     has given me many memorable times.  As experienced surfers and swimmers we use our knowledge and 
+     experience to help those without it. </p>
+                    </div> -->
                 </div>
                 <span class="image main"><img src="F&C-images/crouch-sumbawa.JPG" alt="wave at yo-yos"></span>
             </div>
@@ -115,9 +125,7 @@
                     </p>
                 </div>
             </div>
-        </section>
-        <!--section-->
-        <!-- footer -->
+        </section><!--section-->
         <section>
             <header>
                 <!-- <h2>Please Please Please</h2> -->
@@ -144,9 +152,9 @@
                 <p class="last-text">If you would like to view the code behind this page, then click on the button below. I have detailed a lot of the functionality in the ‘readme’ file. So please do.</p>
                 <button class="link-button"><a href="https://github.com/SandyWyper/Founders-Coders---Bio-Page" target="_blank">Git repo&nbsp;<i class="fab fa-github"></i></a></button>
             </div>
-        </section>
-        <!--section-->
+        </section><!--section-->
     </div> <!-- wrapper -->
+        <!-- footer -->
     <footer>
         <ul class="footer">
             <li>

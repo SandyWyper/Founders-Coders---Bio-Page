@@ -20,6 +20,7 @@ _________________________________________________
 - a small respensive gallery
 - a 'return-to-top' button
 - sounds of waves lapping on page load
+- stop the audio with key press
 
 
 ## Some of the things still to do
@@ -29,4 +30,3 @@ ______________________________
 - the image carousel on this page (iframe was playing havoc with layout)
 - animations between messages
 - links to other projects I have done
-- stop the audio somehow!

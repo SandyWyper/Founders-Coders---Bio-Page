@@ -33,7 +33,17 @@ function letterRevealOne() {
 `;
     let notes = document.getElementById("note1");
 
-    if (notes.classList.item(0) === "class-check") {
+    // if (notes.classList.item(0) === "class-check") {
+    //     notes.innerHTML = myStoryOne;
+    //     document.getElementById("note1").classList.replace("class-check", "animate");
+    //     console.log(document.getElementById("note1").classList);
+    // } else {
+    //     notes.innerHTML = messageOne;
+    //     document.getElementById("note1").classList.replace("animate", "class-check");
+    //             console.log(document.getElementById("note1").classList);
+    // }
+
+        if (notes.classList.item(0) === "class-check") {
         notes.innerHTML = myStoryOne;
         document.getElementById("note1").classList.replace("class-check", "animate");
         console.log(document.getElementById("note1").classList);
@@ -145,4 +155,15 @@ function myFunction() {
   } else {
     x.className = "menu";
   }
+}
+
+
+
+// listen for a key press to stop the audio
+document.body.onkeyup = function(e) {
+   let sound = document.getElementById('player');
+    if (e.keyCode == 83) {
+    sound.pause();
+    sound.currentTime = 0;
+    }
 }

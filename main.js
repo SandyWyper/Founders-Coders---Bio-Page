@@ -13,6 +13,7 @@ function addListners() {
     secondListener.addEventListener('click', letterRevealTwo);
     thirdListener.addEventListener('click', letterRevealThree);
     menuListener.addEventListener('click', menuLinks);
+
 }
 
 

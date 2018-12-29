@@ -13,6 +13,9 @@
 </head>
 
 <body>
+        <audio autoplay>
+  <source src="audio/waves.mp3" type="audio/mpeg">
+</audio>
     <!-- Wrapper -->
     <div id="wrapper">
         <!-- nav bar -->
@@ -32,19 +35,7 @@
                 <li><a class="menu-icon">MENU &nbsp;<i class="fas fa-bars"></i></a></li>
             </ul>
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- <div class="nav">
+        <!-- <div class="nav">
     <ul class="menu" id="menu">
         <li><a href="#message1">Message 1</a></li>
         <li><a href="#message2">Message 2</a></li>
@@ -61,14 +52,16 @@
         <li><a href="javascript:void(0);" class="menu-icon" onclick="myFunction()">MENU &nbsp;<i class="fas fa-bars"></i></a></li>
     </ul>
 </div> -->
-
-
-
-
-
-
         <!-- back-to-top button -->
         <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-angle-up"></i></button>
+
+<iframe src="audio/silence.mp3" allow="autoplay" id="audio" style="display:none"></iframe>
+<audio id="player" autoplay loop>
+    <source src="audio/waves.mp3" type="audio/mp3">
+</audio>
+
+  
+
         <!-- title head -->
         <section class="first-bit">
             <header>
@@ -78,7 +71,8 @@
             <div class="content">
                 <span class="image"><img src="F&C-images/message-in-a-bottle.jpg" alt="a desert island"></span>
             </div>
-        </section><!--section-->
+        </section>
+        <!--section-->
         <!-- about me -->
         <section id="message1">
             <header>
@@ -88,12 +82,13 @@
                 <div>
                     <h3>click on the messages to reveal my story</h3>
                     <div id="note1" class="class-check">
-                        <p class="letters">I was younger then. Derailed, I emerged with roll of paper in my hand and a sense of disillusionment, I ventured away from elderly adolescence. Repelled by city life and suburban struggles I found myself by the sea. Life ebbs and flows with the tide - we wait on the next swell.  How long has it been ... ?  Days turn to weeks,  weeks into years.  The mind wanders, longing for shores far from here.  Venturing around the coast it seems to stretch on and on.  I found a length of timber about nine feet, roughly 20 inches wide.  Not large enough to find richer lands, but pretty good for catching some waves.  Perhaps I will stay here a while... </p>
+                        <p class="letters">I was younger then. Derailed, I emerged with roll of paper in my hand and a sense of disillusionment, I ventured away from elderly adolescence. Repelled by city life and suburban struggles I found myself by the sea. Life ebbs and flows with the tide - we wait on the next swell. How long has it been ... ? Days turn to weeks, weeks into years. The mind wanders, longing for shores far from here. Venturing around the coast it seems to stretch on and on. I found a length of timber about nine feet, roughly 20 inches wide. Not large enough to find richer lands, but pretty good for catching some waves. Perhaps I will stay here a while... </p>
                     </div>
                 </div>
                 <span class="image main"><img src="F&C-images/crouch-sumbawa.JPG" alt="wave at yo-yos"></span>
             </div>
-        </section><!--section-->
+        </section>
+        <!--section-->
         <!-- a new direction -->
         <section id="message2">
             <header>
@@ -101,13 +96,14 @@
             </header>
             <div class="content">
                 <div id="note2" class="class-check">
-                    <p class="letters">…. many days and nights at sea, my skin leathered and salty. Not lost, it seems I have found a new world. Alone - I opened my eyes on this wonderful tech world - it’s beautiful!
+                    <p class="letters">… many days and nights at sea, my skin leathered and salty. Not lost, it seems I have found a new world. Alone - I opened my eyes on this wonderful tech world - it’s beautiful!
                         There is so much to see and so much to learn, but with no guide I feel that I’m staggering through a forest with fresh eyes. Every CSS animation a different flower, every javascript framework a wonderful new animal species. I need an experienced bushman (full stack dev) to show me how to survive. How to get stronger and thrive.
                     </p>
                 </div>
                 <span class="image main"><img src="F&C-images/desert-island-stranded-laptop.jpg" alt="stranded without tech"></span>
             </div>
-        </section><!--section-->
+        </section>
+        <!--section-->
         <!-- why Founders & Coders -->
         <section id="message3">
             <header>
@@ -119,7 +115,8 @@
                     </p>
                 </div>
             </div>
-        </section><!--section-->
+        </section>
+        <!--section-->
         <!-- footer -->
         <section>
             <header>
@@ -139,15 +136,16 @@
                     <li><a href="https://www.codewars.com/users/SandyWyper" target="_blank"><img class=" icon codewars-icon" src="F&C-images/codewars.svg" alt="codewars"/></a></li>
                 </ul>
                 <p class="last-text">As a prerequisite of this application I have built an Image Carousel. T’was quite fun really, and getting to grips with animations between classes was a good test. Here are links to my carousel and the repository on GitHub.</p>
-                    <span><button class="link-button"><a href="https://sandywyper.github.io/ImageCarousel/" target="_blank">Image Carousel </a></button>
+                <span><button class="link-button"><a href="https://sandywyper.github.io/ImageCarousel/" target="_blank">Image Carousel </a></button>
                     <button class="link-button"><a href="https://github.com/SandyWyper/ImageCarousel" target="_blank">Code Repo &nbsp;<i class="fab fa-github"></i></a></button></span>
-             <!--    <iframe src="https://sandywyper.github.io/ImageCarousel/">
+                <!--    <iframe src="https://sandywyper.github.io/ImageCarousel/">
                     alternative content for browsers which do not support iframe.
                 </iframe> -->
                 <p class="last-text">If you would like to view the code behind this page, then click on the button below. I have detailed a lot of the functionality in the ‘readme’ file. So please do.</p>
-                    <button class="link-button"><a href="https://github.com/SandyWyper/Founders-Coders---Bio-Page" target="_blank">Git repo&nbsp;<i class="fab fa-github"></i></a></button>
+                <button class="link-button"><a href="https://github.com/SandyWyper/Founders-Coders---Bio-Page" target="_blank">Git repo&nbsp;<i class="fab fa-github"></i></a></button>
             </div>
-        </section><!--section-->
+        </section>
+        <!--section-->
     </div> <!-- wrapper -->
     <footer>
         <ul class="footer">

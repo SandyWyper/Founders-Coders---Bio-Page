@@ -10,7 +10,7 @@ I have incorparated as many bells and whistles into this little page as I could,
 in truth it's half as many as many as I tried.  Alas, I gave it my best shot, and I have 
 still a long road ahead of me to figure out why so much of what I tried did not work.
 
-Here's a list of some things featured on my page.
+### Here's a list of some things featured on my page.
 _________________________________________________
 
 - Semi resposive Nav-bar with internal and external links
@@ -19,12 +19,14 @@ _________________________________________________
 - replacement of text on clicking the messages
 - a small respensive gallery
 - a 'return-to-top' button
+- sounds of waves lapping on page load
 
 
-Some of the things still to do
+## Some of the things still to do
 ______________________________
 
 - a better nav bar with drop-down options
 - the image carousel on this page (iframe was playing havoc with layout)
 - animations between messages
 - links to other projects I have done
+- stop the audio somehow!

@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="message.css" />
     <!-- google fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Cabin+Sketch|Montserrat|Dancing+Script|Fredericka+the+Great|Gloria+Hallelujah|Nothing+You+Could+Do|Sacramento|Special+Elite|Tangerine" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Cabin+Sketch|Dancing+Script|Fredericka+the+Great|Gloria+Hallelujah|Montserrat|Nothing+You+Could+Do|Sacramento|Special+Elite|Tangerine" rel="stylesheet">
     <!-- awesomefonts -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 </head>
@@ -17,7 +17,7 @@
     <div id="wrapper">
         <!-- nav bar -->
         <div class="nav">
-            <ul class="menu">
+            <ul class="menu" id="menu">
                 <li><a href="#message1">Message 1</a></li>
                 <li><a href="#message2">Message 2</a></li>
                 <li><a href="#message3">Message 3</a></li>
@@ -29,6 +29,7 @@
                         <a href="https://www.codewars.com/users/SandyWyper" target="_blank"><img class=" icon codewars-icon" src="F&C-images/codewars.svg" alt="codewars"/></a>
                     </div>
                 </li>
+                <li><a href="javascript:void(0);" class="menu-icon" onclick="myFunction()">MENU &nbsp;<i class="fas fa-bars"></i></a></li>
             </ul>
         </div>
         <!-- back-to-top button -->
@@ -42,9 +43,9 @@
             <div class="content">
                 <span class="image"><img src="F&C-images/message-in-a-bottle.jpg" alt="a desert island"></span>
             </div>
-        </section>
+        </section><!--section-->
         <!-- about me -->
-        <section class="space" id="message1">
+        <section id="message1">
             <header>
                 <h2>i remember..... a different time</h2>
             </header>
@@ -58,9 +59,9 @@
                 </div>
                 <span class="image main"><img src="F&C-images/crouch-sumbawa.JPG" alt="wave at yo-yos"></span>
             </div>
-        </section>
+        </section><!--section-->
         <!-- a new direction -->
-        <section class="space" id="message2">
+        <section id="message2">
             <header>
                 <h2>I found a new world...</h2>
             </header>
@@ -72,9 +73,9 @@
                 </div>
                 <span class="image main"><img src="F&C-images/desert-island-stranded-laptop.jpg" alt="stranded without tech"></span>
             </div>
-        </section>
+        </section><!--section-->
         <!-- why Founders & Coders -->
-        <section class="space" id="message3">
+        <section id="message3">
             <header>
                 <h2>salvation</h2>
             </header>
@@ -84,9 +85,9 @@
                     </p>
                 </div>
             </div>
-        </section>
+        </section><!--section-->
         <!-- footer -->
-        <section class="space" id="links">
+        <section>
             <header>
                 <!-- <h2>Please Please Please</h2> -->
                 <div class="gallery">
@@ -96,22 +97,23 @@
                 </div>
             </header>
             <div class="content work-bit">
+                <h2><u>Links to my learning platforms.</u></h2>
                 <ul class="icons">
                     <li><a href="https://github.com/SandyWyper" target="_blank"><i class="icon fab fa-github"></i></a></li>
                     <li><a href="https://www.freecodecamp.org/sandywyper" target="_blank"><i class="icon fab fa-free-code-camp"></i></a></li>
                     <li><a href="https://codepen.io/SandyWyper/" target="_blank"><i class="icon fab fa-codepen"></i></a></li>
                     <li><a href="https://www.codewars.com/users/SandyWyper" target="_blank"><img class=" icon codewars-icon" src="F&C-images/codewars.svg" alt="codewars"/></a></li>
                 </ul>
-                <p class="last-text">As a prerequisite of this application I have built an Image Carousel. T’was quite fun really, and getting to grips with animations between classes was a good test. Here’s a link to the repo ---->
-                    <a href="https://github.com/SandyWyper/ImageCarousel" target="_blank"><button class="link-button">Image Carousel &nbsp;<i class="fab fa-github"></i></button></a></p>
-                <iframe src="https://sandywyper.github.io/ImageCarousel/">
+                <p class="last-text">As a prerequisite of this application I have built an Image Carousel. T’was quite fun really, and getting to grips with animations between classes was a good test. Here’s a link to the repo ----></p>
+                    <button class="link-button"><a href="https://github.com/SandyWyper/ImageCarousel" target="_blank">Image Carousel &nbsp;<i class="fab fa-github"></i></a></button>
+             <!--    <iframe src="https://sandywyper.github.io/ImageCarousel/">
                     alternative content for browsers which do not support iframe.
-                </iframe>
-                <p class="last-text">If you would like to view the code behind this page, then click on the button below. I have detailed a lot of the functionality in the ‘readme’ file. So please do.
-                <a href="https://github.com/SandyWyper/Founders-Coders---Bio-Page" target="_blank"><button class="link-button">Git repo&nbsp;<i class="fab fa-github"></i></button></a></p>
+                </iframe> -->
+                <p class="last-text">If you would like to view the code behind this page, then click on the button below. I have detailed a lot of the functionality in the ‘readme’ file. So please do.</p>
+                    <button class="link-button"><a href="https://github.com/SandyWyper/Founders-Coders---Bio-Page" target="_blank">Git repo&nbsp;<i class="fab fa-github"></i></a></button>
             </div>
+        </section><!--section-->
     </div> <!-- wrapper -->
-    </section>
     <footer>
         <ul class="footer">
             <li>

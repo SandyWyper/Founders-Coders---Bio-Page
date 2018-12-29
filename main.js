@@ -8,6 +8,7 @@ function addListners() {
     const secondListener = document.getElementById('note2');
     const thirdListener = document.getElementById('note3');
     const menuListener = document.getElementById('menuFunc');
+    // const menuListener = document.getElementById('dropdown-content-id')
     firstListener.addEventListener('click', letterRevealOne);
     secondListener.addEventListener('click', letterRevealTwo);
     thirdListener.addEventListener('click', letterRevealThree);
@@ -112,6 +113,7 @@ function letterRevealThree() {
 
 // nav bar - show list of links in dropdown menu by toggling class "Show"
 function menuLinks() {
+  console.log(document.getElementById("dropdown-content-id").classList);
     document.getElementById("dropdown-content-id").classList.toggle("show");
 }
 
